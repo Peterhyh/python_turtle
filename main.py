@@ -1,9 +1,11 @@
 from turtle import Turtle, Screen
 
 
-timmy_the_turtle = Turtle()
+turtle = Turtle()
 
-timmy_the_turtle.shape("turtle")
+turtle.shape("turtle")
+turtle.color("#DAA520")
+turtle.forward(100)
 
 
 screen = Screen()
