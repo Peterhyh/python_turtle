@@ -3,8 +3,6 @@ import random
 
 turtle = Turtle()
 
-turtle.shape("turtle")
-
 
 # turtle.forward(100)
 # turtle.right(90)
@@ -30,17 +28,32 @@ turtle.shape("turtle")
 
 
 # Increase the side of the shape by 1 and change the lines to a random color each iteration:
-arr = ["orange", "red", "blue", "green", "purple",
-       "pink", "yellow", "#ADFF2F", "#8A2BE2", "#FF7F50"]
+# arr = ["orange", "red", "blue", "green", "purple",
+#        "pink", "yellow", "#ADFF2F", "#8A2BE2", "#FF7F50"]
 
-for i in range(3, 11):
-    ran_num = random.randint(0, 9)
-    turtle.color(arr[ran_num])
-    int_ang = (180 * i - 360)/i
-    tilt_ang = 180 - int_ang
-    for _ in range(i):
-        turtle.forward(100)
-        turtle.right(tilt_ang)
+# for i in range(3, 11):
+#     ran_num = random.randint(0, 9)
+#     turtle.color(arr[ran_num])
+#     tilt_ang = (360/i)
+#     for _ in range(i):
+#         turtle.forward(100)
+#         turtle.right(tilt_ang)
+
+
+# Draw random walk:
+# colors = ["#556B2F", "#D2691E", "#800000", "#800080", "#8A2BE2	",
+#           "#4B0082", "#483D8B", "##006400", "##000080", "##2F4F4F"]
+# directions = [0, 90, 180, 270]
+
+# turtle.pensize(10)
+# turtle.speed(2)
+
+# for _ in range(200):
+#     ran_num = random.randint(0, 2)
+#     ran_color = random.randint(0, 9)
+#     turtle.color(random.choice(colors))
+#     turtle.forward(30)
+#     turtle.setheading(random.choice(directions))
 
 
 screen = Screen()
