@@ -89,5 +89,5 @@
 # spirograph(5)
 
 
-screen = t.Screen()
-screen.exitonclick()
+# screen = t.Screen()
+# screen.exitonclick()
