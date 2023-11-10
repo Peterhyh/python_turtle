@@ -1,7 +1,4 @@
-from turtle import Turtle, Screen
-import random
-
-turtle = Turtle()
+# from turtle import Turtle, Screen
 
 
 # turtle.forward(100)
@@ -56,5 +53,41 @@ turtle = Turtle()
 #     turtle.setheading(random.choice(directions))
 
 
-screen = Screen()
+# Create a random color function that returns a tuple of (R, G, B):
+# def random_color():
+#     r = random.randint(0, 255)
+#     g = random.randint(0, 255)
+#     b = random.randint(0, 255)
+#     return (r, g, b)
+
+# print(random_color())
+
+
+# Create a spirograph:
+# import turtle as t
+# import random
+
+# t.colormode(255)
+# turtle = t.Turtle()
+# turtle.speed(10)
+
+
+# def random_color():
+#     r = random.randint(0, 255)
+#     g = random.randint(0, 255)
+#     b = random.randint(0, 255)
+#     return (r, g, b)
+
+
+# def spirograph(gap_size):
+#     for _ in range(360 // gap_size):
+#         turtle.color(random_color())
+#         turtle.circle(100)
+#         turtle.setheading(turtle.heading() + 10)
+
+
+# spirograph(5)
+
+
+screen = t.Screen()
 screen.exitonclick()
